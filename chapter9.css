@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+ 
+.box {
+  width:960px;
+  margin: 50px auto;
+}
+.box-1 {
+  width:300px;
+  float:left;
+  border:1px solid #eee;
+}
+.box-2 {
+  margin: 0 30px;
+  width:300px;
+  float:left;
+  border:1px solid #eee;
+}
+.box-3 {
+  float:left;
+  width:300px;
+  border:1px solid #eee;
+}
+.box-1a {
+  background: orange;
+  float: left;
+  color: #fff;
+  padding:3px;
+}
+.box-1b {
+  background-size: cover;
+  margin:10px;
+  background-image:url(img/flow01.png);
+  height:150px;
+  width:280px;
+}
+.box-1c {
+  margin:10px;
+  color: #666;
+}
+.box-2a {
+  background: orange;
+  float: left;
+  color: #fff;
+  padding:3px;
+}
+.box-2b {
+  background-size: cover;
+  margin:10px;
+  background-image:url(img/flow02.png);
+  height:150px;
+  width:280px;
+}
+.box-2c {
+  margin:10px;
+  color: #666;
+}
+.box-3a {
+  background: orange;
+  float: left;
+  color: #fff;
+  padding:3px;
+}
+.box-3b {
+  background-size: cover;
+  margin:10px;
+  background-image:url(img/flow03.png);
+  height:150px;
+  width:280px;
+}
+.box-3c {
+  margin:10px;
+  color: #666;
+}
+
+@media screen and (max-width:768px) {
+  .box {
+    width: 100%;
+  }
+  .box-1 {
+    float:none;
+    width: 90%;
+    margin: 0 auto;
+    margin-top:50px;
+  }
+  .box-2 {
+    float:none;
+    width: 90%;
+    margin: 20px auto;
+  }
+  .box-3 {
+    float:none;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom:50px;
+  }
