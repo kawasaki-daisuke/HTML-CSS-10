@@ -13,6 +13,7 @@
 .box {
   width:960px;
   margin: 50px auto;
+  
 }
 .box-1 {
   width:300px;
@@ -103,3 +104,4 @@
     margin: 0 auto;
     margin-bottom:50px;
   }
+}
